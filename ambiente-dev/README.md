@@ -71,7 +71,8 @@ link: https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system
 
 
 
-# Instalar e configurar ZSH
+## Instalar e configurar ZSH
+
 ```
     sudo apt install zsh -y
     
@@ -80,14 +81,16 @@ link: https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system
     zsh
 ```
 
-# Instalar Oh-my-zsh! -> https://ohmyz.sh/
+## Instalar Oh-my-zsh! -> https://ohmyz.sh/
+
 ```
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ```
 
-# Instalar Spaceship Prompt
-# https://github.com/spaceship-prompt/spaceship-prompt
+## Instalar Spaceship Prompt
+
+https://github.com/spaceship-prompt/spaceship-prompt
 
 ```
     git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
@@ -96,28 +99,38 @@ link: https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system
 
 ```
 
-## Mudar ~/.zshrc -> ZSH_THEME="spaceship"
+## Personalizar ZSHRC ( Mudar ~/.zshrc -> ZSH_THEME="spaceship")
 
 ### Instalar Zsh Autosuggestions
-### https://github.com/zsh-users/zsh-autosuggestions
+
+https://github.com/zsh-users/zsh-autosuggestions
+    
 ```
 
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 ```
-# Instalar Zsh Syntax Highlighting
-# https://github.com/zsh-users/zsh-syntax-highlighting
+
+### Instalar Zsh Syntax Highlighting
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
 ```
     
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ```
-## Mudar plugins ~/.zshrc 
-```
-    vim ~/.zshrc 
-    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+### Mudar plugins ~/.zshrc 
 
 ```
+    vim ~/.zshrc 
+```
+
+Editar a parte dos plugins, normlamente na linha 75
+```
+    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
 
 ## Font optional (https://github.com/pdf/ubuntu-mono-powerline-ttf)
 ```
