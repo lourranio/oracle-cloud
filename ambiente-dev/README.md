@@ -112,8 +112,12 @@ link: https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ```
-## Mudar plugins
-## plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+## Mudar plugins ~/.zshrc 
+```
+    vim ~/.zshrc 
+    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+```
 
 ## Font optional (https://github.com/pdf/ubuntu-mono-powerline-ttf)
 ```
@@ -133,4 +137,6 @@ https://www.youtube.com/watch?v=5i3TpDR8muU
 </br>
 </br>
 
-# Para a plicar todas as configurações, reinicie a maquina/pc/notebook/desktop
+### Para a plicar todas as configurações, reinicie a maquina/pc/notebook/desktop
+
+### exec $SHELL que não precisa reiniciar. ou então dar um source .zshrc
