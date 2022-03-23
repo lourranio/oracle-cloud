@@ -24,3 +24,15 @@ sudo apt-get update
 sudo apt install google-chrome-stable
 
 ```
+
+
+# Como instalar a última versão do VLC no Linux
+
+```
+  sudo apt-get install flatpak
+  
+  flatpak install --user https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref
+  
+  flatpak --user update org.videolan.VLC
+  
+  sudo snap install vlc
