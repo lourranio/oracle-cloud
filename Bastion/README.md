@@ -50,6 +50,9 @@ Como utilizar o Bastion da Oracle Cloud (OCI)
 ssh -i <chave-privada> -N -L <porta-local>:<ip-instancia>:22 -p 22 <url-oci-da-session-bastion>
 ```
 
+.       <img width=400px height=auto src="./img/copy-ssh-command.png" alt="Project logo"></a>
+
+
 ## Avisos <a name = "avisos"></a>
 
 1. A opção "Sessão SSH gerenciada" requer que o **plug-in Bastion** esteja ativado no nó da **Instancia**. 
