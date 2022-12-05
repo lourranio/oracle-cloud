@@ -11,3 +11,6 @@ https://github.com/taborda-cbip/inovacao-com-dados-em-nuvem/blob/main/trilhas/20
 ##  Criando Ambientes Híbridos com Oracle MySQL Database Service  (youtube)
 
 https://www.youtube.com/watch?v=jmpJ_b6kapI
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jmpJ_b6kapI/0.jpg)](https://www.youtube.com/watch?v=jmpJ_b6kapI)
